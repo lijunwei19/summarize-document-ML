@@ -10,15 +10,15 @@ deep learning
 abstractiv text summarizers
 RNN 
 
-## prepare dataset 
-## data pre-processing
-a. cleaning
-b. Tokenization
-c. word embedding using conceptNet Numberbatch
-d. vectorization 
-## Designing LSTM Bi-directional Encoders & Deconders
-## Train and  testing then save the model
-## Take user input and summarize document 
+1.  prepare dataset 
+2.  data pre-processing
+    a. cleaning
+    b. Tokenization
+    c. word embedding using conceptNet Numberbatch
+    d. vectorization 
+3.  Designing LSTM Bi-directional Encoders & Deconders
+4.  Train and  testing then save the model
+5.  Take user input and summarize document 
 
 
 
