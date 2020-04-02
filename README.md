@@ -11,12 +11,12 @@ Nowadays, many documents are generated in our life, people often need spend a lo
 3.  RNN 
 
 # pre-requisites lib
-python 3.7
-Numpy
-pandas
-Nltk
-tensor flow
-PyRouge 
+    python 3.7
+    Numpy
+    pandas
+    Nltk
+    tensorflow
+    PyRouge 
 
 # Algorithm
 1.  prepare dataset 
