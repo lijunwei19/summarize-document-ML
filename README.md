@@ -1,16 +1,16 @@
-# summarize-document-ML
+# Summarize-Document-ML
     BUEC 500 project  
     Li Junwei, Li Jingyi, 
     04/01/2020
 # User Story 
-    Nowadays, many documents are generated in our life, people often need spend a lot of time to read and understanding those content. as a programmer, we want to find a easily and efficient novel method that can help human quickly grasp the main idea of article or news. 
+   Nowadays, many documents are generated in our life, people often need spend a lot of time to read and understanding those content. as a programmer, we want to find a easily and efficient novel method that can help human quickly grasp the main idea of article or news. 
 
-# learning type
+# Learning Type
     1.  deep learning 
     2.  abstractiv text summarizers
     3.  RNN 
 
-# pre-requisites lib
+# Pre-requisites lib
     python 3.7
     Numpy
     pandas
@@ -31,9 +31,9 @@
 
 
 
-# dataset for training 
-    Amazon-Fine-Food-Review 
-    DUC (document Understanding Conference) dataset 
-    CNN / Daily Mail Dataset
-    Gigaword Dataset
+# Dataset for Training 
+    1.  Amazon-Fine-Food-Review 
+    2.  DUC (document Understanding Conference) dataset 
+    3.  CNN / Daily Mail Dataset
+    4.  Gigaword Dataset
 
