@@ -5,11 +5,20 @@ Li Junwei, Li Jingyi,
 # User Story 
 Nowadays, many documents are generated in our life, people often need spend a lot of time to read and understanding those content. as a programmer, we want to find a easily and efficient novel method that can help human quickly grasp the main idea of article or news. 
 
-# Algorithm
-deep learning 
-abstractiv text summarizers
-RNN 
+# learning type
+1.  deep learning 
+2.  abstractiv text summarizers
+3.  RNN 
 
+# pre-requisites lib
+python 3.7
+Numpy
+pandas
+Nltk
+tensor flow
+PyRouge 
+
+# Algorithm
 1.  prepare dataset 
 2.  data pre-processing
     a. cleaning
@@ -28,10 +37,3 @@ DUC (document Understanding Conference) dataset
 CNN / Daily Mail Dataset
 Gigaword Dataset
 
-# pre-requisites 
-python 3.7
-Numpy
-pandas
-Nltk
-tensor flow
-PyRouge 
