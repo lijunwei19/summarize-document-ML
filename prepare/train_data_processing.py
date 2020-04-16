@@ -13,7 +13,7 @@ def pre_text(file_name):
     warnings.filterwarnings("ignore")
 
     #reading data from csv file
-    data=pd.read_csv(file_name   ,nrows=50)
+    data=pd.read_csv(file_name   ,nrows=100000)
 
     #drop repeat text data and NaN invalid data
     data.drop_duplicates(subset=['Text'],inplace=True)
@@ -83,6 +83,6 @@ def main():
     dic_json_file_name = 'amazon-fine-food-reviews/MapAbbWord_dic.json'
     final_cleaned_reviews(file_name,dic_json_file_name )
     
-
 if __name__ == "__main__":
     main()
+
