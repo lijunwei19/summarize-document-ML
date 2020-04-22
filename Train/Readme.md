@@ -11,7 +11,7 @@ BUEC500 Final project </small>
 Kaggle- Amazon Reviews dataset
 
 
-![amazon reviews](https://nowheretribune.files.wordpress.com/2013/11/amazon-reviews.jpg = 200*200)
+![amazon reviews](https://nowheretribune.files.wordpress.com/2013/11/amazon-reviews.jpg | width = 200)
 
 
 ## Guide  
