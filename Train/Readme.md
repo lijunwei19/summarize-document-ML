@@ -9,8 +9,11 @@ BUEC500 Final project </small>
  
 <strong>Dataset we use</strong>
 Kaggle- Amazon Reviews dataset
-![amazon reviews](https://nowheretribune.files.wordpress.com/2013/11/amazon-reviews.jpg)
- 
+
+
+![amazon reviews](https://nowheretribune.files.wordpress.com/2013/11/amazon-reviews.jpg = 200*200)
+
+
 ## Guide  
    Continue trainning it,<strong> more accuracy</strong>
    Use the trained model to summarize reviews. 
