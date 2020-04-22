@@ -1,7 +1,6 @@
-# Summarize-Document-ML
-   BUEC 500 project  -------  Li Junwei, Li Jingyi,     04/01/2020
-# User Story 
-   Nowadays, many documents are generated in our life, people often need spend a lot of time to read and understanding those content. as a programmer, we want to find a easily and efficient novel method that can help human quickly grasp the main idea of article or news. 
+# Introduction
+   This folder contain all the elements for tainning model. we did not have enough computer and time to run our training model completely(3% processing). if you want to have more accuaracy model you can continue trainning it. 
+   
 
 # Learning Type
     1.  deep learning 
@@ -9,12 +8,11 @@
     3.  RNN 
 
 # Pre-requisites lib
-    python 3.7
+    python 3.5
+    tensorflow 1.1.0
     Numpy
     pandas
     Nltk
-    tensorflow
-    PyRouge 
 
 # Algorithm
     1.  prepare dataset 
