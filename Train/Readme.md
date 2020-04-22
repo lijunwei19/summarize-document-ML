@@ -7,6 +7,10 @@ BUEC500 Final project </small>
 <strong>No enough computing resource and time to run training model completely(only 3% about 3-4hours). </strong>
  
  
+<strong>Dataset we use</strong>
+Kaggle- Amazon Reviews dataset
+![amazon reviews](https://www.google.com/search?q=amazon+review+image&safe=active&rlz=1C5CHFA_enUS866US867&tbm=isch&source=iu&ictx=1&fir=-iq6RlCNvpSvdM%253A%252C8Uiv9AbOhY3c_M%252C_&vet=1&usg=AI4_-kQzLJFImNnZsNwyvq1OZjXwfNeknQ&sa=X&ved=2ahUKEwi114Ll6froAhV5lnIEHeUaD2QQ9QEwCXoECAoQJQ#imgrc=-iq6RlCNvpSvdM:)
+ 
 ## Guide  
    Continue trainning it,<strong> more accuracy</strong>
    Use the trained model to summarize reviews. 
