@@ -1,5 +1,5 @@
 ### Introduction
-   This folder contain all the elements for tainning model. No enough computing resource and time to run training model completely(only 3%). 
+   This folder contain all the elements for tainning model. No enough computing resource and time to run training model completely(only 3% about 3-4hours). 
    
 ## Guide  
    Continue trainning it,more accuracy
