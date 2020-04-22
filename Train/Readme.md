@@ -1,8 +1,9 @@
 # Training Model Section
-Summarize_model - created by Li Junwei 
-BUEC500 Final project 
+<small>Summarize_model - created by Li Junwei 
+BUEC500 Final project </small>
 
-<strong>This folder contain all the elements for tainning model</strong>. 
+<strong>This folder contain all the elements for tainning model.</strong> 
+
 <strong>No enough computing resource and time to run training model completely(only 3% about 3-4hours). </strong>
  
  
