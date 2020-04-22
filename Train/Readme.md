@@ -1,7 +1,9 @@
 # Training Model Section
 Summarize_model - created by Li Junwei 
 BUEC500 Final project 
-This folder contain all the elements for tainning model. No enough computing resource and time to run training model completely(only 3% about 3-4hours). 
+
+<strong>This folder contain all the elements for tainning model</strong>. 
+<strong>No enough computing resource and time to run training model completely(only 3% about 3-4hours). </strong>
  
  
 ## Guide  
