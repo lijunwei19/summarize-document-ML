@@ -11,6 +11,19 @@ Kaggle- Amazon Reviews dataset
 ![amazon reviews](https://nowheretribune.files.wordpress.com/2013/11/amazon-reviews.jpg){:height='100'}
 
 
+# How to use our project
+<li>  git download https://github.com/lijunwei19/summarize-document-ML.git </li>
+<li>  recommand using ancaonda build <strong> python 3.5 tensorflow == 1.1.0 </strong></li> 
+
+
+
+
+
+
+#  demo
+
+
+
    
 ## model detail
 ### Learning Type
