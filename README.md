@@ -28,7 +28,13 @@ Kaggle- Amazon Reviews dataset
 
 
 #  demo
-
+![home](https://github.com/lijunwei19/summarize-document-ML/blob/master/Image/home.png)
+![Data_display](https://github.com/lijunwei19/summarize-document-ML/blob/master/Image/Data_display.png)
+![text_reivews](https://github.com/lijunwei19/summarize-document-ML/blob/master/Image/text_reviews.png)
+![summarized_reviews](https://github.com/lijunwei19/summarize-document-ML/blob/master/Image/summarized_reviews.png)
+![pie_star](https://github.com/lijunwei19/summarize-document-ML/blob/master/Image/pie_star.png)
+![login](https://github.com/lijunwei19/summarize-document-ML/blob/master/Image/login.png)
+![register](https://github.com/lijunwei19/summarize-document-ML/blob/master/Image/register.png)
 
 
    
