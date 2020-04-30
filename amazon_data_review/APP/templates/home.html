@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+  {% block content %}
+    <br/>
+    <br/>
+    <form action ='' method="POST">
+      <div style="width: 70%; margin-left: auto; margin-right: auto;">
+      <div class='container'>
+        <div class = 'input-group mb-3'>
+            <input type='url', class='form-control' placeholder="https://www.amazon.com/" name="url">
+            <div type='input-group-append'>
+              <button type="submit" class="btn btn-secondary">Add</button> 
+            </div>
+        </div>
+      </div>  
+    </div>
+    </form>
+    <br/>
+    <br/>
+
+    <form action='' method='POST'>
+      <div style="width: 60%; margin-left: auto; margin-right: auto;">
+        {%for url in urls%}  
+          <div class='container'>
+            <div class = 'input-group mb-3'>
+                <li class='form-control' style="overflow: hidden;">{{url}}</li>
+                <div type='input-group-append'>
+                  <button type="submit" class="btn btn-outline-danger" name='Delete' value={{url}}>Del</button> 
+                </div>
+            </div>
+          </div>  
+        {%endfor%}
+      </div>
+    </form> 
+
+
+    <br/>
+    <br/>
+    <br/>
+
+
+    <form action='{{ url_for("Scrape") }}' method="POST">
+      <div style="width: 10%; margin-left: auto; margin-right: auto;" >
+        <button type='submit' name = 'urls' value = {{urls}} class='btn btn-outline-primary'>Submit</button>
+      </div> 
+    </form>
+
+    <div style="width: 10%; margin-left: 90%;" >
+      <a href="/" class="btn btn-outline-secondary">Clear</a>
+    </div>
+    {% endblock content %}

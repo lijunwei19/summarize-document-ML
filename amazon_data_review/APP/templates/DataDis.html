@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<br/>
+<div >
+  <h1 style="text-align:center">IFO Table</h1>
+</div>
+<br/>
+
+    <table class="table " style="width: 75%; margin-left: auto; margin-right: auto;">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Total Rating</th>
+            <th scope="col">Score(5)</th>
+            <th scope="col">Star</th>
+            <th scope="col">Reviews</th>
+
+          </tr>
+        </thead>
+        <tbody>
+        {%for data_dic in data%} 
+          <tr>
+            <th scope="row", style="width: 35%;">{{data_dic['Name']}}</th>
+            <td>{{data_dic['Price']}}</td>
+            <td>{{data_dic['total_ratings']}}</td>
+            <td>{{data_dic['Score']}}</td>
+            <form action ="{{url_for('chart')}}" method="POST">
+            <td><button type = 'submit' name='Star' value= "{{data_dic['Star']}}">visialize</button></td>
+            </form>
+            <form action ="{{url_for('Text_Reviews')}}" method="POST">
+            <td><button type = 'submit' name='Reviews' value= "{{data_dic['Reviews']}}">reviews</button></td>
+            </form>
+          </tr>
+        {%endfor%}
+        </tbody>
+      </table>
+{% endblock content %}

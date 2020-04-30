@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+<div >
+    
+    <div >
+        <h1 style="text-align:center">Customer Text Reviews</h1>
+    </div>
+    <br/>
+    <br/>
+    <div style=" width: 68%; margin-left: auto; margin-right: auto; ">
+        {% for review in Reviews%}
+        <p ><em>{{review}}</em></p>
+    
+        <br/>
+        {%endfor%}
+    </div>
+    {%for i in temp_reviews%}
+    {%endfor%}
+    <form action="{{url_for('summarize')}}" method="POST">
+    <div style="text-align: center; ">
+        <button type="submit" name='Reviews' value='{{temp_reviews}}' class="btn btn-outline-secondary">Summarize </button>
+    </div>
+    </form>
+</div>
+
+
+
+{% endblock content %}
