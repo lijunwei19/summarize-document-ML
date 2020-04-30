@@ -8,7 +8,7 @@
 Kaggle- Amazon Reviews dataset
 
 
-![amazon reviews](https://nowheretribune.files.wordpress.com/2013/11/amazon-reviews.jpg){:height='100'}
+![amazon reviews](https://github.com/lijunwei19/summarize-document-ML/blob/master/Image/a3ce6cec71d51c08af3260dee424137.png)
 
 
 # How to use our project
