@@ -1,0 +1,21 @@
+price:
+    css: 'td.a-span12 span.a-size-medium'
+    type: Text
+Name:
+    css: 'h1.a-size-large span.a-size-large'
+    type: Text
+reviews_total_scores:
+    css: 'div.a-fixed-left-grid-col span.a-size-base span.a-size-medium'
+    multiple: true
+    type: Text
+reviews_text:
+    css: 'div.a-expander-collapsed-height div.a-expander-content span'
+    multiple: true
+    type: Text
+review_detail_score:
+    css: 'span.cr-widget-Histogram div.a-fixed-left-grid-inner'
+    multiple: true
+    type: Text
+total_ratings:
+    css: 'span.a-declarative a.a-link-normal span.a-size-base'
+    type: Text
