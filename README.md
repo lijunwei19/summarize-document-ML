@@ -12,12 +12,21 @@ Kaggle- Amazon Reviews dataset
 
 
 # How to use our project
-<li>  git download https://github.com/lijunwei19/summarize-document-ML.git </li>
-<li>  recommand using ancaonda build <strong> python 3.5 tensorflow == 1.1.0 </strong></li> 
-
-
-
-
+```
+<li>  git clone https://github.com/lijunwei19/summarize-document-ML.git </li>
+<li>  Recommand using ancaonda build <strong> python 3.5 tensorflow == 1.1.0 </strong></li> 
+<li> pip install tensorflow==1.1.0 </li>
+<li> </li>
+<li> </li>
+<li>  pip install nltk </li>
+<li> pip install selectorlib </li>
+<li>pip install requests </li>
+<li> pip install Flask-WTF</li>
+<li> pip install email-validator</li>
+<li> pip install Flask</li>
+<li> pip install Flask-Jsonpify</li>
+      
+```
 
 
 #  demo
